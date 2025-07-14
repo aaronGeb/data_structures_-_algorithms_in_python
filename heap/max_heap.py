@@ -53,11 +53,9 @@ if __name__ == "__main__":
     max_heap.insert(44)
     max_heap.insert(26)
     max_heap.insert(31)
-   # max_heap.print_max_heap()
     max_value = max_heap.extract_max()
     print("Maximum element:", max_value)
-    print(max_heap.extract_max())  # Output: 20
-    print(max_heap.extract_max())  # Output: 10
-    print(max_heap.extract_max())  # Output: 5
-    print(max_heap.extract_max())  # Output: None (heap is empty)
-    print(max_heap.extract_max())  # Output: None (heap is empty)
+    print(max_heap.extract_max())  
+    print(max_heap.extract_max())  
+    print(max_heap.extract_max())  
+    print(max_heap.extract_max()) 

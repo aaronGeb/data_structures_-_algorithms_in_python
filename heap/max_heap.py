@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 class MaxHeap:
     def __init__(self):
         self.heap = []
@@ -52,7 +53,7 @@ if __name__ == "__main__":
     max_heap.insert(44)
     max_heap.insert(26)
     max_heap.insert(31)
-    max_heap.print_max_heap()
+   # max_heap.print_max_heap()
     max_value = max_heap.extract_max()
     print("Maximum element:", max_value)
     print(max_heap.extract_max())  # Output: 20
